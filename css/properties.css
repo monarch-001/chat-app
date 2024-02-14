@@ -1,0 +1,52 @@
+:root {
+    --bg-color: #f7f7f7;
+    --white-color: #fff;
+    --black-color: #000;
+    --border-btm-color: #e6e6e6;
+    --err-txt-color: #721c24;
+    --err-txt-bg: #f8d7da;
+    --err-txt-border: #f5c6cb;
+    --input-br-color: #eee;
+    --pl-color: #767676;
+    --inp-color: #424040;
+    --signup-input-bg: #333;
+    --users-hd-br: #e6e6e6;
+    --user-inp-br: #ccc;
+    --user-btn-bg: #333;
+    --user-list-br-btm: #f1f1f1;
+}
+
+.flex {
+    display: flex;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+.alignment {
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.none {
+    display: none;
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
